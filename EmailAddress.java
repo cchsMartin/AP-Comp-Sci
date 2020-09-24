@@ -15,6 +15,7 @@ public class EmailAddress {
 		String BDay = Bline.substring(3,5);
 		String BMont = Bline.substring(0,2);
 		String BYear = Bline.substring(6);
+		input.close();
 		System.out.println("Email: " + LName + FInit + MInit + "@sharkmail.com");
 		System.out.println("");
 		System.out.println("Temp password: " + BMont + BDay + BYear);
