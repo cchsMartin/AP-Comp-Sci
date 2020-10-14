@@ -2,10 +2,10 @@ package Light;
 
 public class LightBulb1 {
 		private boolean isOn;
-		private int voltage;
+		private int wattage;
 		private String color;
 		
-		public LightBulb1(int v, boolean i, String c) {
+		public LightBulb1(int w, boolean i, String c) {
 			voltage = v;
 			isOn = i;
 			color = c;
