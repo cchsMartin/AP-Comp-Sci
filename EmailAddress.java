@@ -5,6 +5,9 @@ public class EmailAddress {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Please type your first name"); 
+		
+		//Name your variables with lowercase letters
+		//If your variable has two names the second word is capitalized like secondWord
 		String FInit = input.nextLine().substring(0,1).toUpperCase();
 		System.out.println("Please type your middle name"); 
 		String MInit = input.nextLine().substring(0,1).toUpperCase();
