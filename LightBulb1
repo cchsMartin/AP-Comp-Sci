@@ -6,7 +6,7 @@ public class LightBulb1 {
 		private String color;
 		
 		public LightBulb1(int w, boolean i, String c) {
-			voltage = v;
+			wattage = w;
 			isOn = i;
 			color = c;
 		}
