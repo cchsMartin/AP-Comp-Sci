@@ -1,0 +1,11 @@
+package Light;
+
+public class LightTest {
+
+	public static void main(String[] args) {
+		
+		LightBulb1 bulb = new LightBulb1(60, false, "Blue");
+		
+	}
+
+}
