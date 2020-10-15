@@ -1,0 +1,102 @@
+package equation;
+
+import java.lang.Math;
+
+public class Fraction {
+	private int num1;
+	private int den1;
+	private int num2;
+	private int den2;
+	private int multnum;
+	private int multden;
+	private int addnum;
+	private int addden;
+	private int subnum;
+	private int subden;
+	private int divnum;
+	private int divden;
+	
+	public Fraction (int a1, int b1, int a2, int b2) {
+	num1 = a1;
+	den1 = b1;
+	num2 = a2;
+	den2 = b2;
+	}
+	public void Addition() {
+		int newnum1 = num1 * den2;
+		int newnum2 = num2 * den1;
+		int newden = den1 * den2;
+		int newnum = newnum1 + newnum2;
+		addnum = newnum;
+		addden = newden;
+	}
+	public void Subtraction() {
+		int newernum1 = num1 * den2;
+		int newernum2 = num2 * den1;
+		int newerden = den1 * den2;
+		int newernum = newernum1 - newernum2;
+		subnum = newernum;
+		subden = newerden;
+	}
+	public void Multipliclation() {
+		int newerernum = num1 * num2;
+		int newererden = den1 * den2;
+		multnum = newerernum;
+		multden = newererden;
+		
+	}
+	
+	public void Division() {
+		int newestnum = num1 * den2;
+		int newestden = den1 * num2;
+		divnum = newestnum;
+		divden = newestden;
+	}
+	
+	public int getnum1() {
+	return num1;
+	}
+		
+	public int getden1() {
+	return den1;	
+	}
+	public int getnum2() {
+	return num2;
+	}
+			
+	public int getden2() {
+	return den2;	
+	}
+	
+	public int getmultnum() {
+	return multnum;
+	}
+			
+	public int getmultden() {
+	return multden;	
+	}
+	public int getdivnum() {
+	return divnum;
+	}
+				
+	public int getdivden() {
+	return divden;	
+	}
+		
+	public int getaddnum() {
+	return addnum;
+	}
+				
+	public int getaddden() {
+	return addden;	
+	}
+	public int getsubnum() {
+	return subnum;
+	}
+					
+	public int getsubden() {
+	return subden;	
+	}
+	
+	
+}
