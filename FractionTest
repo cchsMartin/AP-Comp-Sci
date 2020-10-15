@@ -1,0 +1,35 @@
+package equation;
+
+import java.util.Scanner;
+
+public class FractionTest {
+	
+	
+	public static void main(String[] args) {
+		Scanner Type = new Scanner(System.in);
+		System.out.println("Please type the Numerator of the first fraction");
+	    int Numerator1 = Type.nextInt();
+	    System.out.println("Please type the Denominator of the first fraction");
+	    int Denominator1 = Type.nextInt();
+	    System.out.println("Please type the Numerator of the fraction");
+	    int Numerator2 = Type.nextInt();
+	    System.out.println("Please type the Denominator of the second fraction");
+	    int Denominator2 = Type.nextInt();
+		Type.close();
+		
+		Fraction equate = new Fraction(Numerator1, Denominator1, Numerator2, Denominator2);
+		equate.Addition();
+		equate.Subtraction();
+		equate.Division();
+		equate.Multipliclation();
+		
+		System.out.println( "the fractions are " + equate.getnum1() + "/" + equate.getden1() + " and " + equate.getnum2() + "/" + equate.getden2());
+		System.out.println("("+ equate.getnum1() + "/" + equate.getden1() + ") + (" + equate.getnum2() + "/" + equate.getden2() + ") = " + equate.getaddnum() + "/" + equate.getaddden());
+		System.out.println("("+ equate.getnum1() + "/" + equate.getden1() + ") - (" + equate.getnum2() + "/" + equate.getden2() + ") = " + equate.getsubnum() + "/" + equate.getsubden());
+		System.out.println("("+ equate.getnum1() + "/" + equate.getden1() + ") * (" + equate.getnum2() + "/" + equate.getden2() + ") = " + equate.getmultnum() + "/" + equate.getmultden());
+		System.out.println("("+ equate.getnum1() + "/" + equate.getden1() + ") / (" + equate.getnum2() + "/" + equate.getden2() + ") = " + equate.getdivnum() + "/" + equate.getdivden());
+	}
+	
+	
+
+}
