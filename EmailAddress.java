@@ -25,3 +25,4 @@ public class EmailAddress {
 	}
 
 }
+//Great project. Just name your variables with lowercase letters. --> lInit instead of LInit. Even better is lastInit.
