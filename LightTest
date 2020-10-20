@@ -6,6 +6,11 @@ public class LightTest {
 		
 		LightBulb1 bulb = new LightBulb1(60, false, "Blue");
 		
+		bulb.turnOn();
+		
+		System.out.println("The Lightbulb has a wattage of " + bulb.getWatt() + " watts");
+		System.out.println("The statment \"The Light bulb is on\" is "+ bulb.getIsOn());
+		System.out.println("The color of the Light bulb is " + bulb.getColor());
 	}
 
 }
