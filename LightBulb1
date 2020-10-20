@@ -18,6 +18,19 @@ public class LightBulb1 {
 		public void turnOn() {
 			isOn = true;
 		}
+		
+		public int getWatt() {
+			return wattage;
+		}
+		
+		public boolean getIsOn() {
+			return isOn;
+		}
+			
+		public String getColor() {
+			return color;
+		}
+		
 
 
 }
