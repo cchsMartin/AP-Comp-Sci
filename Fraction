@@ -3,6 +3,8 @@ package equation;
 import java.lang.Math;
 
 public class Fraction {
+//you have too many class variables (some of your variables could simply go inside the method in which you use them)
+
 	private int num1;
 	private int den1;
 	private int num2;
@@ -96,7 +98,6 @@ public class Fraction {
 					
 	public int getsubden() {
 	return subden;	
-	}
-	
-	
+	}	
+	//
 }
